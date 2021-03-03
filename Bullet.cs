@@ -12,13 +12,13 @@ public class Bullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         gameObject.SetActive(true);
 
-       
 
     }
 
-    public void Shoot()
+    public void FixedUpdate()
     {
             Vector3 scale = new Vector3();
             scale.x = size;
